@@ -22,7 +22,6 @@ public class PlacerController : MonoBehaviour
     [SerializeField]
     private List<GameObject> objectsInventory;
 
-
     private void Awake()
     {
         arRaycastManager = FindObjectOfType<ARRaycastManager>();
@@ -34,8 +33,6 @@ public class PlacerController : MonoBehaviour
 
     private void Update() 
     {
-
-
         List<ARRaycastHit> buttonHits = new List<ARRaycastHit>();
         List<ARRaycastHit> screenHits = new List<ARRaycastHit>();
         arRaycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), buttonHits, TrackableType.PlaneWithinPolygon);
@@ -57,14 +54,14 @@ public class PlacerController : MonoBehaviour
         if (!TryGetTouchPosition(out Vector2 touchPosition))
             return;
 
-        if (Input.GetTouch(0).phase == TouchPhase.Began)
+        /*if (Input.GetTouch(0).phase == TouchPhase.Began)
         {
             if (arRaycastManager.Raycast(touchPosition, screenHits, TrackableType.PlaneWithinPolygon))
             {
                 hitPose = screenHits[0].pose;
                 PlaceObject("FINGER");
             }
-        }
+        }*/
     }
 
     private bool TryGetTouchPosition(out Vector2 touchPosition)

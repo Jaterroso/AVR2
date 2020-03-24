@@ -8,7 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/01 - Basic Setup/01 - Basic Setup.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/02 - Object Placement/02 - Object Placement.unity
     guid: cf6f743c6b8c55b4ca3b682fd60e8790
+  - enabled: 0
+    path: Assets/03 - Object manipulation/03 - Object Manipulation.unity
+    guid: 502f9f62a07c04745aa0baacaba809f1
+  - enabled: 1
+    path: Assets/04 - Image tracking/04 - Image tracking.unity
+    guid: 955df7ecfdf5ab246aeda440164fd11e
   m_configObjects: {}

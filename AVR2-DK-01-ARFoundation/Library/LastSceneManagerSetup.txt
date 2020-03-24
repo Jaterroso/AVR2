@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/02 - Object Placement/02 - Object Placement.unity
+- path: Assets/04 - Image tracking/04 - Image tracking.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

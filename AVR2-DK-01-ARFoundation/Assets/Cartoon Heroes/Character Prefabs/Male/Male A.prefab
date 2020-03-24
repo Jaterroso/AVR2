@@ -2860,7 +2860,7 @@ GameObject:
   - component: {fileID: 7439481209520119215}
   m_Layer: 0
   m_Name: Male A
-  m_TagString: Untagged
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
