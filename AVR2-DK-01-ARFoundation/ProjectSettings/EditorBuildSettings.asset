@@ -14,7 +14,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/03 - Object manipulation/03 - Object Manipulation.unity
     guid: 502f9f62a07c04745aa0baacaba809f1
-  - enabled: 1
+  - enabled: 0
     path: Assets/04 - Image tracking/04 - Image tracking.unity
     guid: 955df7ecfdf5ab246aeda440164fd11e
+  - enabled: 0
+    path: Assets/05 - Face  tracking/05 - Face tracking.unity
+    guid: dcc8de1cc44d3a64bb3ef9d20ca85b78
+  - enabled: 1
+    path: Assets/06 - Light estimation/06 - Light Estimation.unity
+    guid: b5b6452266a12964ebb43a5e235a6a0c
   m_configObjects: {}
