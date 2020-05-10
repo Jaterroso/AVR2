@@ -1,0 +1,8 @@
+{
+    "image": "David-Perret.jpg",
+    "firstname": "David",
+    "lastname": "Perret",
+    "company": "EON Reality",
+    "email": "david.perret@eonreality.com",
+    "phone": "+33(0)4567890"
+}

@@ -1,0 +1,8 @@
+{
+    "image": "Marcin-Kasica.jpg",
+    "firstname": "Marcin",
+    "lastname": "Kasica",
+    "company": "EON Reality",
+    "email": "marcin.kasica@eonreality.com",
+    "phone": "+33(0)987654321"
+}

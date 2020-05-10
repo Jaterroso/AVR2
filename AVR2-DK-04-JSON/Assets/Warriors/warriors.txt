@@ -1,0 +1,64 @@
+{
+  "warriors": [
+    {
+	  "positionStr": "-1.5,0.0,-1.0",
+	  "rotationStr": "0.0,-180.0,0.0",
+      "health": 10,
+      "strength": 10,
+      "speed": 10,
+      "gender": "Female",
+      "name": "Lindsey",
+      "age": 32
+    },
+    {
+	  "positionStr": "0.0,0.0,-2.0",
+	  "rotationStr": "0.0,-180.0,0.0",
+      "health": 10,
+      "strength": 10,
+      "speed": 10,
+      "gender": "Female",
+      "name": "Eva",
+      "age": 32
+    },
+    {
+	  "positionStr": "1.5,0.0,-1.0",
+	  "rotationStr": "0.0,-180.0,0.0",
+      "health": 10,
+      "strength": 10,
+      "speed": 10,
+      "gender": "Female",
+	  "name": "Tanya",
+      "age": 32
+    },
+    {
+	  "positionStr": "2.0,0.0,1.0",
+	  "rotationStr": "0.0,180.0,0.0",
+      "health": 10,
+      "strength": 10,
+      "speed": 10,
+      "gender": "Male",
+      "name": "Hardy",
+      "age": 32
+    },
+    {
+	  "positionStr": "0.0,0.0,0.0",
+	  "rotationStr": "0.0,-180.0,0.0",
+      "health": 10,
+      "strength": 10,
+      "speed": 10,
+      "gender": "Male",
+      "name": "Peter",
+      "age": 32
+    },
+    {
+	  "positionStr": "-2.0,0.0,1.0",
+	  "rotationStr": "0.0,-180.0,0.0",
+      "health": 10,
+      "strength": 10,
+      "speed": 10,
+      "gender": "Male",
+      "name": "Jonathan",
+      "age": 32
+    }
+  ]
+}
