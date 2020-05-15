@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | AVR2-DK-03-WebGL</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress});
+    
+      function SelectSphere(value) {
+        unityInstance.SendMessage("Controller", "SelectSphere", value);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: %UNITY_WIDTH%px; height: %UNITY_HEIGHT%px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">AVR2-DK-03-WebGL</div>
+        <div>&nbsp;&nbsp;&nbsp;Select a sphere color:&nbsp;
+          <select style="font-size:18px;" onchange = "javascript:SelectSphere(this.value);">
+            <option value = "-1">All</option>
+            <option value = "0">Blue</option>
+            <option value = "1">Yellow</option>
+            <option value = "2">Green</option>
+            <option value = "3">Pink</option>
+            <option value = "4">Red</option>
+          </select>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
